@@ -1,0 +1,15 @@
+{
+    "npm": {
+        "publish": false,
+        "ignoreVersion": true
+        
+    },
+    "hooks": {
+        "before:init": [
+            "npm test"
+        ],
+        "after:bump": "echo changelog and build",
+        "after:git:release": "echo After git push, before github release",
+        "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    }
+}
