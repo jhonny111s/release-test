@@ -7,6 +7,10 @@
         "ignoreVersion": true
         
     },
+    "github": {
+        "release": true,
+        "draft": true
+    },
     "hooks": {
         "before:init": [
             "npm test"
