@@ -1,7 +1,7 @@
 {
     "git": {
         "requireCleanWorkingDir": false,
-        "changelog": "npm run changelog --stdout",
+        "changelog": "npm run changelog --stdout --template changelog-template.hbs",
         "commitMessage": "chore(Release): v${version}",
         "tagName": "v${version}",
         "tagAnnotation": "Release v${version}",
