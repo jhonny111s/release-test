@@ -1,11 +1,11 @@
 {
   "name": "release-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"run test\"",
-    "release": "release-it"
+    "release": "set GITHUB_TOKEN=8785459f10c1bd2be99fbaa0bb72b1e4e0066e07 & release-it"
   },
   "repository": {
     "type": "git",
