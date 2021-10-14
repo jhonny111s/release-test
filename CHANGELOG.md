@@ -1,6 +1,12 @@
 ### CHANGELOG
 
-## [Unreleased](https://github.corp.globant.com/jhony-lopez/release-test/compare/v0.0.16...HEAD)
+## [Unreleased](https://github.corp.globant.com/jhony-lopez/release-test/compare/v0.0.17...HEAD)
+
+## [v0.0.17](https://github.corp.globant.com/jhony-lopez/release-test/compare/v0.0.16...v0.0.17) - 13 October 2021
+
+### Commits
+
+- chore(Release): v0.0.17 [`0be1beb`](https://github.corp.globant.com/jhony-lopez/release-test/commit/0be1beb0b61c4bb8c89d346fc64121fe3c9142cc)
 
 ## [v0.0.16](https://github.corp.globant.com/jhony-lopez/release-test/compare/v0.0.15...v0.0.16) - 13 October 2021
 
