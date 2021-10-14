@@ -1,10 +1,11 @@
 {
   "name": "release-test",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"run test\"",
+    "changelog": "auto-changelog --template changelog-template.hbs --unreleased",
     "release": "set GITHUB_TOKEN=8785459f10c1bd2be99fbaa0bb72b1e4e0066e07 && release-it"
   },
   "repository": {
@@ -15,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@release-it/keep-a-changelog": "^2.3.0",
+    "auto-changelog": "^2.3.0",
     "release-it": "^14.11.6"
   }
 }
