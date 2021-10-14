@@ -1,15 +1,21 @@
 {
     "git": {
-        "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
-      },
+        "requireCleanWorkingDir": false,
+        "requireUpstream": false,
+        "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs",
+        "commitMessage": "chore(Release): v${version}",
+        "tagName": "v${version}",
+        "tagAnnotation": "Release v${version}",
+        "pushArgs": "--no-verify"
+    },
     "npm": {
         "publish": false,
         "ignoreVersion": true
-        
     },
     "github": {
         "release": true,
-        "draft": true
+        "draft": true,
+        "releaseName": "v${version}"
     },
     "hooks": {
         "before:init": [
